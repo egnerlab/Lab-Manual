@@ -2,7 +2,7 @@
 
 ##  Purpose & Outline
 
-The goal of this folder is to provide helpful resources and suggestions to lab members learning JavaScript/HTML/CSS, as well as designating some general conventions and best practices for coding styles.
+The goal of this folder is to provide helpful resources and suggestions while learning JavaScript/HTML/CSS, as well as designating some general conventions and best practices for coding styles.
 
 ## JavaScript
 
@@ -23,14 +23,14 @@ Others:
     * Looks really good, haven't tried it.
 * Duke's [coursera course](https://www.coursera.org/learn/duke-programming-web)
 * Codecademy's JavaScript [course](https://www.codecademy.com/learn/introduction-to-javascript)
-* w3schools.com's [tutorial](https://www.w3schools.com/js/) - not as good as the textbook (I tried both).
+* w3schools.com's [tutorial](https://www.w3schools.com/js/)
 * As always, remember to look up problems you have on [stack overflow](https://stackoverflow.com/)!
 
 >Note: If you have never programmed before, start with the resources under 'Others'. They are more approachable and will teach you the basics of programming along with JavaScript. There are hundreds of basic these tutorials out there, find one you like!
 
 ## HTML
 
-HTML, or 'Hyper Text Markup Language' describes the content of website. You can have HTML content that appears on the webpage (such as a picture or a paragraph of text), or HTML content that does not appear but contains things like JavaScript code.
+HTML, or 'Hyper Text Markup Language' describes the content of websites. You can have HTML content that appears on the webpage (such as a picture or a paragraph of text), or HTML content that does not appear but contains things like JavaScript code.
 
 Resources:
 
@@ -61,7 +61,7 @@ Every HTML document has this basic outline:
 
 ## CSS
 
-CSS, or 'Cascading Style Sheets', is a language that allows you to modify the output of HTML content. Usually this is nothing more than creating a 'styles.css' file in which you specify default fonts, formatting, and spacing of your html content. See here (link pending) for an example.
+CSS, or 'Cascading Style Sheets', is a language that allows you to modify the output of HTML content. Usually this is nothing more than creating a 'styles.css' file in which you specify default fonts, formatting, and spacing of your html content.
 
 Resources:
 * https://www.w3schools.com/css/
@@ -113,7 +113,7 @@ Specificity can get confusing pretty quickly, so make sure to always check your 
 
 ## Debugging
 
-Debugging your website/MTurk task can be done right in the browser. Chrome is probably the most advanced/easiest to use, but all major browsers have debugging tools. **Note: this guide uses Google Chrome, but it is possible in all browsers.**
+Debugging your website/MTurk task can be done right in the browser. Chrome is probably the most advanced/easiest to use, but all major browsers have debugging tools. **Note: This guide uses Google Chrome, but it is possible in all browsers.**
 
 Step 1: Once you have written some HTML code, you can run this and see it in your browser.
 
@@ -125,7 +125,7 @@ You can also go to the Chrome browsers menu and then select "More Tools", then s
 
 > In fact, you can do this on any website, be it your email, Facebook, or this tutorial! Go ahead and try it, and you can hover over the things in the 'Elements' tab to see which HTML elements correspond to which content on the screen.
 
-Step 3: Debug your code! Make sure the HTML elements are centered properly, and you can use the 'Console' for debugging.
+Step 3: Debug your code! Make sure the HTML elements are centered properly, and you can use the 'Console' tab for debugging.
 
 >For example, you can use `console.log()` in your code to print things directly to the console.
 
@@ -148,4 +148,4 @@ Other:
 * Lab at Stanford's [tutorial](http://cocolab.stanford.edu/mturk-tools.html)
 * If you're using jsPsych - see this [MTurk guide](https://www.jspsych.org/overview/mturk/)
 
->Note: These are just programming resources, not MTurk resources more generally. See the MTurk Folder (link TBD) for information about using MTurk.
+>Note: These are just programming resources, not MTurk resources more generally. See the MTurk Folder for specific information about using MTurk.
