@@ -16,7 +16,7 @@ Recommended:
 * [Canvas tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
     * Canvas is a special HTML element which you can use to show stimuli with scripting. It is more flexible/dynamic than using html elements. Definitely worth checking out.
 * [MTurk Tutorial](https://bradylab.ucsd.edu/ttt/) by Timothy Brady.
-    * This is slightly MTurk specific, but great all around resource for learning the basics of JavaScript/HTML/CSS.
+    * This is MTurk specific, but great all around resource for learning the basics of JavaScript/HTML/CSS.
 
 Others:
 * This [comprehensive tutorial](https://crumplab.github.io/programmingforpsych/web-experiments.html)
@@ -30,11 +30,40 @@ Others:
 
 ## HTML
 
+HTML, or 'Hyper Text Markup Language' describes the content of website. You can have HTML content that appears on the webpage (such as a picture or a paragraph of text), or HTML content that does not appear but contains things like JavaScript code.
+
+Resources:
+
+* wr3school's [HTML Tutorial](https://www.w3schools.com/html/html_intro.asp)
+* This very basic [beginner's guide](https://www.quicksprout.com/beginners-guide-to-html/)
+* Many of the JavaScript and MTurk resources also cover HTML, for example this Stanford Lab's [tutorial](http://cocolab.stanford.edu/mturk-tools.html) or Tim Brady's [video tutorials](https://bradylab.ucsd.edu/ttt/)
+
+**Basic outline:**
+
+Every HTML document has this basic outline:
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Page Title</title>
+            <!-- The head element contains stuff that will not be displayed -->
+        </head>
+        <body>
+            <!-- The body contains the components of the webpage, like text
+            or images that are displayed to the user. -->
+        </body>
+    </html>
+
+  For more details about what goes into the `<head>` element, click [here](https://www.w3schools.com/html/html_head.asp).
+  > Usually, your `<head>` will contain your JavaScript code and your CSS style sheets. These are usually saved as separate documents that are then referenced.
+
+  For example, `<link rel="stylesheet" href="styles.css">` references a CSS document and `<script src="jquery-3.4.1.js"></script>` references a JavaScript document. This is much more organized than having these codes in one huge document.
+
 ## CSS
 
 CSS, or 'Cascading Style Sheets', is a language that allows you to modify the output of HTML content. Usually this is nothing more than creating a 'styles.css' file in which you specify default fonts, formatting, and spacing of your html content. See here (link pending) for an example.
 
-Recommended Resources:
+Resources:
 * https://www.w3schools.com/css/
 * https://htmlcheatsheet.com/css/
 
@@ -81,6 +110,28 @@ Answer: Since `header2` belongs to `body`, div `allMyHeaders`, AND class `header
 2. CSS also works by specificity. `headerClass` is more *specific* than div `allMyHeaders`, so it gets priority.
 
 Specificity can get confusing pretty quickly, so make sure to always check your code! See [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) for a detailed description of specificity.
+
+## Debugging
+
+Debugging your website/MTurk task can be done right in the browser. Chrome is probably the most advanced/easiest to use, but all major browsers have debugging tools. **Note: this guide uses Google Chrome, but it is possible in all browsers.**
+
+Step 1: Once you have written some HTML code, you can run this and see it in your browser.
+
+>In Atom, you can do this by installing the 'script' package and then
+pressing 'ctrl + shift + b'. I'm sure other editors have this feature as well.
+
+Step 2: In Chrome, right click the document and click 'Inspect', or press 'Ctrl+Shift+I' on Windows or 'Ctrl+Option+J' on Mac.
+You can also go to the Chrome browsers menu and then select "More Tools", then select "Developer Tools"
+
+> In fact, you can do this on any website, be it your email, Facebook, or this tutorial! Go ahead and try it, and you can hover over the things in the 'Elements' tab to see which HTML elements correspond to which content on the screen.
+
+Step 3: Debug your code! Make sure the HTML elements are centered properly, and you can use the 'Console' for debugging.
+
+>For example, you can use `console.log()` in your code to print things directly to the console.
+
+Resources:
+* The JavaScript [textbook](https://javascript.info/debugging-chrome) has a chapter on this. **Highly Recommended**
+* developers.google.com offers this Chrome DevTools [tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript).
 
 ## Mechanical Turk
 
