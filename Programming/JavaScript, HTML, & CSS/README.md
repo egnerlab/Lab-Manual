@@ -20,17 +20,16 @@ Recommended:
 
 Others:
 * This [comprehensive tutorial](https://crumplab.github.io/programmingforpsych/web-experiments.html)
-    * Looks really good, haven't tried it.
 * Duke's [coursera course](https://www.coursera.org/learn/duke-programming-web)
 * Codecademy's JavaScript [course](https://www.codecademy.com/learn/introduction-to-javascript)
 * w3schools.com's [tutorial](https://www.w3schools.com/js/)
 * As always, remember to look up problems you have on [stack overflow](https://stackoverflow.com/)!
 
->Note: If you have never programmed before, start with the resources under 'Others'. They are more approachable and will teach you the basics of programming along with JavaScript. There are hundreds of basic these tutorials out there, find one you like!
+>Note: If you have never programmed before, start with the resources under 'Others'. They are more approachable and will teach you the basics of programming along with JavaScript. There are tons of these tutorials out there; find one you like!
 
 ## HTML
 
-HTML, or 'Hyper Text Markup Language' describes the content of websites. You can have HTML content that appears on the webpage (such as a picture or a paragraph of text), or HTML content that does not appear but contains things like JavaScript code.
+HTML, or 'Hyper Text Markup Language', describes the content of websites. You can have HTML content that appears on the webpage (such as a picture or a paragraph of text) or HTML content that does not appear but contains things like JavaScript code.
 
 Resources:
 
@@ -61,7 +60,7 @@ Every HTML document has this basic outline:
 
 ## CSS
 
-CSS, or 'Cascading Style Sheets', is a language that allows you to modify the output of HTML content. Usually this is nothing more than creating a 'styles.css' file in which you specify default fonts, formatting, and spacing of your html content.
+CSS, or 'Cascading Style Sheets', is a language that allows you to modify the output of HTML content. Usually this is nothing more than creating a 'styles.css' file in which you specify fonts, formatting, and spacing of your html content.
 
 Resources:
 * https://www.w3schools.com/css/
@@ -113,24 +112,24 @@ Specificity can get confusing pretty quickly, so make sure to always check your 
 
 ## Debugging
 
-Debugging your website/MTurk task can be done right in the browser. Chrome is probably the most advanced/easiest to use, but all major browsers have debugging tools. **Note: This guide uses Google Chrome, but it is possible in all browsers.**
+Debugging your website/MTurk task can be done using your browser. Chrome is probably the most advanced/easiest to use, but all major browsers have debugging tools. **Note: This guide uses Google Chrome, but it is possible in all browsers.**
 
-Step 1: Once you have written some HTML code, you can run this and see it in your browser.
+Step 1: Once you have written some HTML code, you can execute it and view it in your browser.
 
 >In Atom, you can do this by installing the 'script' package and then
-pressing 'ctrl + shift + b'. I'm sure other editors have this feature as well.
+pressing 'ctrl + shift + b'. Other editors have this feature as well.
 
 Step 2: In Chrome, right click the document and click 'Inspect', or press 'Ctrl+Shift+I' on Windows or 'Ctrl+Option+J' on Mac.
-You can also go to the Chrome browsers menu and then select "More Tools", then select "Developer Tools"
+You can also go to the Chrome browsers menu and then select "More Tools", then select "Developer Tools".
 
 > In fact, you can do this on any website, be it your email, Facebook, or this tutorial! Go ahead and try it, and you can hover over the things in the 'Elements' tab to see which HTML elements correspond to which content on the screen.
 
 Step 3: Debug your code! Make sure the HTML elements are centered properly, and you can use the 'Console' tab for debugging.
 
->For example, you can use `console.log()` in your code to print things directly to the console.
+>For example, you can use `console.log()` in your JavaScript code to print things directly to the console.
 
 Resources:
-* The JavaScript [textbook](https://javascript.info/debugging-chrome) has a chapter on this. **Highly Recommended**
+* The JavaScript [textbook](https://javascript.info/debugging-chrome) has an excellent chapter on this. **Highly Recommended**
 * developers.google.com offers this Chrome DevTools [tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript).
 
 ## Mechanical Turk
