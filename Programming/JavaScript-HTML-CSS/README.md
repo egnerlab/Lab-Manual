@@ -4,6 +4,8 @@
 
 The goal of this folder is to provide helpful resources and suggestions while learning JavaScript/HTML/CSS, as well as designating some general conventions and best practices for coding styles.
 
+------------------------------------------
+
 ## JavaScript
 
 [JavaScript](http://javascript.info/intro) is a dynamic language which can be used to make MTurk experiments or creating websites with interactive features. While HTML provides the basic structure of a site and CSS the formatting, JavaScript allows you to present stimuli, record reaction times, respond to user inputs, etc.
@@ -26,6 +28,8 @@ Others:
 * As always, remember to look up problems you have on [stack overflow](https://stackoverflow.com/)!
 
 >Note: If you have never programmed before, start with the resources under 'Others'. They are more approachable and will teach you the basics of programming along with JavaScript. There are tons of these tutorials out there; find one you like!
+
+------------------------------------------
 
 ## HTML
 
@@ -57,6 +61,8 @@ Every HTML document has this basic outline:
   > Usually, your `<head>` will contain your JavaScript code and your CSS style sheets. These are usually saved as separate documents that are then referenced.
 
   For example, `<link rel="stylesheet" href="styles.css">` references a CSS document and `<script src="jquery-3.4.1.js"></script>` references a JavaScript document. This is much more organized than having these codes in one huge document.
+  
+------------------------------------------
 
 ## CSS
 
@@ -110,6 +116,8 @@ Answer: Since `header2` belongs to `body`, div `allMyHeaders`, AND class `header
 
 Specificity can get confusing pretty quickly, so make sure to always check your code! See [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) for a detailed description of specificity.
 
+------------------------------------------
+
 ## Debugging
 
 Debugging your website/MTurk task can be done using your browser. Chrome is probably the most advanced/easiest to use, but all major browsers have debugging tools. **Note: This guide uses Google Chrome, but it is possible in all browsers.**
@@ -131,6 +139,8 @@ Step 3: Debug your code! Make sure the HTML elements are centered properly, and 
 Resources:
 * The JavaScript [textbook](https://javascript.info/debugging-chrome) has an excellent chapter on this. **Highly Recommended**
 * developers.google.com offers this Chrome DevTools [tutorial](https://developers.google.com/web/tools/chrome-devtools/javascript).
+
+------------------------------------------
 
 ## Mechanical Turk
 
