@@ -40,7 +40,7 @@
     2. "If you are submitting a new protocol or your fund code has changed, please be sure to send the fund code/cost object that will fund the study to billing@biac.duke.edu" (you can ask Tobias for this)
 2. When your task is ready for the scanner, run a user test (referred to on the online booking schedule as UserTest.01) to make sure the task actually runs in the scanner like you'd hope it would. You can even schedule it less than 24 hours in advance, though if another, paid study schedules for that time that study supersedes the user test. Oh, and the user test is free, which is nice.
 3. Create a study folder with a beige manilla folder from the bottom-right cabinet in the lab hall. You'll want the folder to include a [log](fmri_forms/EnrollmentLog.csv) of the participants you run and the following forms (as well as any study-specific surveys/additional paperwork):
-    1. [Demographic form](fmri_forms/demographicform.pdf)
+    1. [Demographic form](fmri_forms/Demographic_questionnaire.pdf)
     2. [Screening form](fmri_forms/MRI_Screening_Form.pdf)
     3. Latest fMRI consent form (ask lab manager)
     4. [Edinburgh Handedness Inventory](fmri_forms/Edinburgh_Handedness_Inventory.pdf)
