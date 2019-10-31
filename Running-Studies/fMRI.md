@@ -1,3 +1,5 @@
+# A walk-through for running fMRI studies at BIAC with the Egner lab
+
 ### Becoming eligible to run fMRI studies
 
 1. You'll need to get added to the appropriate medical school IRB protocol. To get added, first sign into iris.duke.edu, which will enter you into the IRB system. The lab manager will then be able to request you getting added to the protocol. To even be eligible for getting added to the IRB, you must complete:
@@ -96,7 +98,7 @@
     3. If participant is not doing well suddenly (in terms of accuracy), go to tech and point out they might be falling asleep, might want to talk to the participant
     4. When done with a run, wait until the timer on the tech’s screen hits 0:00 (that’s when the sound on the scanner stops); then prepare next run, enter participant number plus run number, select ok, then give keyboard back to tech and tell them to hit spacebar when ready
 12. It's possible the tech will have to cut your study early if it's not up after an hour. Ultimately, it's up to the tech as frustrating as that can be. If you feel gipped, either because the tech wasn't ready to start on time, the session ended too early, both, or there was a technical issue with the scanner itself, you can record it in the study details of that scanning session on the BIAC calendar. BIAC's billing will see the notes and review/discuss it before charging Tobias.
-13. After the scan (outside of the MRI room, since you don't want to hold up the next participant):
+13. After the scan (outside of the MRI room, since you don't want to hold up the next study):
     1. If you were running behind and had to skip it before the scanner, ensure participants complete all the necessary paperwork
     2. Pay participants and have them fill out the receipt according to the following:
     ![image](fmri_forms/receipt_format.png)
