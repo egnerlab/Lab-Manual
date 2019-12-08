@@ -44,9 +44,10 @@
     2. [Screening form](fmri_forms/MRI_Screening_Form.pdf)
     3. Latest fMRI consent form (ask lab manager)
     4. [Edinburgh Handedness Inventory](fmri_forms/Edinburgh_Handedness_Inventory.pdf)
+4. Create a folder on Box for the study (e.g. [this link](https://duke.app.box.com/folder/95308848915)) to store participants' fMRI data. Note, this folder should be within the [Egner lab Box folder](https://duke.app.box.com/folder/50252493002) because only that folder has unlimited storage (at least for now), and it should also be stored within the corresponding IRB protocol folder so that only people who are on that protocol can see the fMRI data (which is PHI because the files include dates of the scans, one of the [18 HIPAA identifiers](https://irb.duhs.duke.edu/node/4094)), and not other lab members who might otherwise have access to the other lab folders
 
 ### Preparing to run participants
-1. Participants often park at the [parking garage](https://map.concept3d.com?id=21&mrkIid=260305#!m/260305) across the street from the Children's Hospital. We compensate participants for the parking with parking passes that we stash in the top drawer of one of the cabinets in our lab hallway. To request more parking permits follow [these instructions](https://parking.duke.edu/parking/permits/department-permits/departmental-visitors).
+1. Participants often park at PG2, the [parking garage](https://map.concept3d.com?id=21&mrkIid=260305#!m/260305) across the street from the Children's Hospital. We compensate participants for the parking with parking passes that we stash in the top drawer of one of the cabinets in our lab hallway. To request more parking permits follow [these instructions](https://parking.duke.edu/parking-validation-order-form).
 2. Tell the lab manager that you're running participants so that (s)he knows to go to the cashier's office to pay participants (you can ask Tobias about an appropriate rate to pay participants). Just let the lab manager know how much money you'll need and what the bill breakdown will be. The lab manager has to return any leftover money to the cashier's office every month, so only ask for the amount that you'll need for the next month.
 3. Ask volunteer@biac.duke.edu to advertise your study. You'll provide them with a list of dates and times you're free and which scanner you'd like to use, and they'll add any sign up to the BIAC scanner's corresponding online calendar (you'll receive an automatic email for every new sign up). The first time you correspond, you'll also need to send them this [completed form](https://wiki.biac.duke.edu/_media/biac:mri_study_recruitment_request_1_.docx).
 ### For each participant you run
@@ -98,9 +99,28 @@
     3. If participant is not doing well suddenly (in terms of accuracy), go to tech and point out they might be falling asleep, might want to talk to the participant
     4. When done with a run, wait until the timer on the tech’s screen hits 0:00 (that’s when the sound on the scanner stops); then prepare next run, enter participant number plus run number, select ok, then give keyboard back to tech and tell them to hit spacebar when ready
 12. It's possible the tech will have to cut your study early if it's not up after an hour. Ultimately, it's up to the tech as frustrating as that can be. If you feel gipped, either because the tech wasn't ready to start on time, the session ended too early, both, or there was a technical issue with the scanner itself, you can record it in the study details of that scanning session on the BIAC calendar. BIAC's billing will see the notes and review/discuss it before charging Tobias.
-13. After the scan (outside of the MRI room, since you don't want to hold up the next study):
-    1. If you were running behind and had to skip it before the scanner, ensure participants complete all the necessary paperwork
-    2. Pay participants and have them fill out the receipt according to the following:
-    ![image](fmri_forms/receipt_format.png)
-    3. Add participants' completed forms to the study folder in the locked file cabinet
-    4. If participants answered no to every question on the TMS screening form, add their data to the TMS database for [Protocol 00024349](https://duke.app.box.com/file/312430529909) or [Protocol 00101414](https://duke.app.box.com/file/548293745548), depending on whether the fMRI study was run under the old (pre-2019) or new (2019-onwards) R01 grant, respectively (the passwords to those Excel sheets can be found on the server); we enter this information since TMS studies require having the participants' anatomical scan, and in the process of running an fMRI study we acquire an anatomical MRI
+13. After the scan go outside of the MRI room since you don't want to hold up the next study:
+        1. If you were running behind and had to skip it before the scanner, ensure participants complete all the necessary paperwork
+        2. Pay participants and have them fill out the receipt according to the following:
+        ![image](fmri_forms/receipt_format.png)
+14. When you're back in lab:
+    1. Add participants' completed forms to the study folder in the locked file cabinet
+    2. If participants answered no to every question on the TMS screening form, add their data to the TMS database for [Protocol 00024349](https://duke.app.box.com/file/312430529909) or [Protocol 00101414](https://duke.app.box.com/file/548293745548), depending on whether the fMRI study was run under the old (pre-2019) or new (2019-onwards) R01 grant, respectively (the passwords to those Excel sheets can be found on the server); we enter this information since TMS studies require having the participants' anatomical scan, and in the process of running an fMRI study we acquire an anatomical MRI
+    3. Save the fMRI data:
+        1. Connect to Munin, the lab's purchased space on BIAC's server. Taken from https://wiki.biac.duke.edu/biac:gettingstarted: "On the server, each study has a respective study folder (see example). In order to access this folder you must 'map the drive.' Do this by selecting the 'My computer' icon on your desktop, then the “map drive” icon at the top of that window. Any drive (letter) can be chosen, then for the folder type the server, for example Munin, then the path, for example \\Munin\data\fbirn. Check the 'reconnect at logon” box and hit 'finish.'"
+        2. Extract the data from  Munin  and add it to the study's corresponding Box account (e.g. [this link](https://duke.app.box.com/folder/95308848915)); you'll need to use [Box Drive](https://duke.app.box.com/services/browse/newest/box_drive) to upload the data, though, as opposed to the web interface because the fMRI data has too many files for the website to directly handle. This then makes the data accessible on your hard drive but it still gets backed up and doesn't take up any local computer storage.
+        3. Once transferred, delete the data from munin. BIAC allots us a small amount of storage for the participants' data, but that is solely for transferring purposes. Once more than 120 minutes or so of participant scanning is stored, you or Tobias will probably receive an email saying "The live file system usage exceeds 95% for \\Munin3\Egner.
+        Cause: The file system has reached the severe level for space usage. Resolution: Delete some files before the file system becomes full."
+
+
+### Extra (for the lab manager)
+1. Every quarter (March, June, Sep., Dec.) the lab manager must enter summary enrollment information from the grant corresponding to each study. Below is an excerpt from an email by Margaret Pendzich on 07/26/2019:
+    1. Go to https://oncore.duke.edu and login using your NetID and PW.  
+    2. Click on PC Console and then enter your protocol number in the Select Protocol box.
+    3. Click on Accrual in the left column.  This will surface the opportunity to add protocol accrual.
+    4. Beginning with the first date your study enrolled a participant, enter the start date of enrollment in the “From Date” field and the end date of that same calendar year in the “Thru Date”.  Put in values for the fields and then click “Add”:
+        1. Accrual is the number of people who enrolled in your study (which may be a subset of those who consented)
+        2. The “Internal Accrual Reporting Group” will be “Research Center”
+    5. For the [first quarter], start with January 1, XXXX and end with either March 31, XXXX or the last day you enrolled a participant.
+    6. Be sure to click the Submit button at the bottom of each page to save the information.
+    7. You should see the Accrual number at the top of the screen change as you add each year.  In the end, the accrual total should equal the number of participants you enrolled.
