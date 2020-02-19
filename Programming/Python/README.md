@@ -10,6 +10,7 @@ Recommended:
 * Free Online [Python Textbook](https://runestone.academy/runestone/books/published/pythonds/index.html)
 * [A Beginner's Guide to Python](https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial)
 * Step-by-step [code visualizer](http://www.pythontutor.com)
+* Brief overview [from Duke Data Plus](https://github.com/duke-mlss/PlusDataScience/blob/master/0A_Python_Prerequisites.ipynb)
 
 Others:
 * Python's [official tutorial](https://docs.python.org/3/tutorial/index.html)
