@@ -2,6 +2,10 @@
 
 Are you starting to learn programming? Wondering which environments are best, and how to use them? Or are you looking to try out new programming tools? This resource guide details a large variety of programming tools, including text editors and larger IDEs (integrated development environments), as well as useful packages/installations for these programs and resources linked to using them.
 
+## Git
+
+* [Tutorial for installing Git on your computer](https://www.atlassian.com/git/tutorials/install-git)
+
 ## Atom
 
 If you are using [Atom](https://atom.io/) as your code editor, here are some useful installs that will make your life a lot easier (and help you learn faster!)
