@@ -1,0 +1,1 @@
+This is a great starting point if you're new to lab. Ed McLaurin, who works in IT and himself was once a lab manager at Duke, put it together and is most responsible for updating it https://wiki.duke.edu/spaces/viewspace.action?key=DLMT
